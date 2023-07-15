@@ -30,7 +30,16 @@
     "require": {
         "php": ">=8.2.0",
         "ext-json": "*",
-        "composer-plugin-api": "*"
+        "composer-plugin-api": "*",
+        "colinodell/indentation": "*",
+        "symfony/config": "*",
+        "symfony/dependency-injection": "*",
+        "symfony/filesystem": "*",
+        "symfony/finder": "*",
+        "symfony/options-resolver": "*",
+        "symfony/validator": "*",
+        "symfony/var-exporter": "*",
+        "symfony/yaml": "*"
     },
     "require-dev": {
         "composer/composer": "*"
