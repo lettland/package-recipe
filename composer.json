@@ -1,6 +1,32 @@
 {
     "name": "lettland/package-recipe",
     "type": "composer-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dāvis Zālītis (k0d3r1s)",
+            "email": "k0d3r1s@vairogs.com",
+            "homepage": "https://me.k0d3r1s.com",
+            "role": "Developer"
+        }
+    ],
+    "funding": [
+        {
+            "type": "ko-fi",
+            "url": "https://ko-fi.com/k0d3r1s"
+        },
+        {
+            "type": "paypal",
+            "url": "https://www.paypal.com/paypalme/k0d3r1s"
+        },
+        {
+            "type": "issuehunt",
+            "url": "https://issuehunt.io/r/lettland/package-recipe"
+        }
+    ],
+    "support": {
+        "email": "support@vairogs.com"
+    },
     "require": {
         "php": ">=8.2.0",
         "ext-json": "*",
@@ -17,12 +43,19 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "config": {
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "ergebnis/composer-normalize": true
+        }
     },
     "extra": {
         "class": "Lettland\\PackageRecipe",
         "branch-alias": {
             "dev-master": "0.1.x-dev"
+        },
+        "thanks": {
+            "name": "lettland/package-recipe",
+            "url": "https://github.com/lettland/package-recipe"
         }
     }
 }
