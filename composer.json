@@ -1,0 +1,28 @@
+{
+    "name": "lettland/package-recipe",
+    "type": "composer-plugin",
+    "require": {
+        "php": ">=8.2.0",
+        "ext-json": "*",
+        "composer-plugin-api": "*"
+    },
+    "require-dev": {
+        "composer/composer": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Lettland\\PackageRecipe\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "class": "Lettland\\PackageRecipe",
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
+}
