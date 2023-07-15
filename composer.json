@@ -49,7 +49,7 @@
         }
     },
     "extra": {
-        "class": "Lettland\\PackageRecipe",
+        "class": "Lettland\\PackageRecipe\\PackageRecipe",
         "branch-alias": {
             "dev-master": "0.1.x-dev"
         },
